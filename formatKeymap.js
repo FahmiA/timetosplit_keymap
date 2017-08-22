@@ -17,7 +17,7 @@ var layerLines = [];
 
 for (var line of lines) {
     if (layerName == null) {
-        var layerStartMatch = line.match(/^\/\s*\* (\w+)$/);
+        var layerStartMatch = line.match(/^\/\s*\* (.*)$/);
         if(layerStartMatch != null) {
             layerName = layerStartMatch[1];
         }
