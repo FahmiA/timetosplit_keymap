@@ -5,6 +5,7 @@ My personal [QMK](https://github.com/qmk/qmk_firmware) keymap for the [Let's Spl
 The default keymap with a few minor changes.
 
  - Add `{` and `}` keys to the `upper` layer. The default mapping does not include these keys at all.
+ - Assign arrow keys to home, end, page up, and page down keys in the `lower` layer.
  - Remove audio support.
  - Add RGB support (10 LEDs by default).
  - Add RGB control to the `adjust` layer.
@@ -23,7 +24,4 @@ From the root QMK directory:
 
     # apt install avr-libc
     make lets_split-rev2-timetosplit-avrdude
-
-## To do
- - Bind left, right, up, down arrow keys to home, end, page up, and page down keys respectively.
 
